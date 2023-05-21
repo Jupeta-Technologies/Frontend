@@ -1,5 +1,5 @@
 import { Box, IconButton } from '@mui/material';
-import heroImage from '/Users/ChristianA/Desktop/application/jupeta/src/images/led-speaker.jpg';
+import heroImage from '../images/led-speaker.jpg';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 

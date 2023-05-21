@@ -1,5 +1,5 @@
 import { Box, Button } from '@mui/material';
-import trendyImage from '/Users/ChristianA/Desktop/application/jupeta/src/images/desktop-layout.jpg';
+import trendyImage from '../images/desktop-layout.jpg';
 
 const HolidaySale = () => {
   return (

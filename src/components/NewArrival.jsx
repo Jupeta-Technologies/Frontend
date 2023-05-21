@@ -1,5 +1,5 @@
 import { Box, Button } from '@mui/material';
-import ArrivalImage from '/Users/ChristianA/Desktop/application/jupeta/src/images/sneaker.jpg';
+import ArrivalImage from '../images/sneaker.jpg';
 
 const NewArrival = () => {
   return (
