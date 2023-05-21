@@ -1,10 +1,6 @@
 import React from 'react'
 import styles from "../style.js";
 import { Navbar, Hero, DailyDeals, ExploreBestSelling, Footer, NewArrival, SignUp, WhatIsTrending,HolidaySale } from "../components";
-import { Link } from "react-router-dom";
-import {Routes, Route} from "react-router-dom";
-import CheckoutPage from "../components/CheckoutPage";
-import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
     return(
