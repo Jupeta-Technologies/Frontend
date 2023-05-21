@@ -1,9 +1,12 @@
 import styles from '../style';
 import { footerLinks } from '../constant';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+    <>
+      <Link to='/checkoutpage'><button className="checkoutpage">CheckoutPage</button></Link>
+      <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
         <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div
@@ -27,6 +30,8 @@ const Footer = () => {
           ))}
         </div>
     </section>
+    </>
+    
   );
 };
 
